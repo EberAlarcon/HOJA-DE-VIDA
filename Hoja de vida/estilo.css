@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg,transparent 74px,transparent 75px,
+ #a4a4a4 75px, #a4a4a4 76px,transparent 77px,transparent 109px),
+    linear-gradient(-45deg,transparent 75px,transparent 76px,
+      #a4a4a4 76px,#a4a4a4 77px,transparent 78px,transparent 109px),#fff;
+  background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  color: #000000;
+}
+header h1 {
+  background-color: #364552;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+img {
+  margin: 70px;
+  width: 120px;
+  height: 170px;
+  float: right;
+}
+.contenedor {
+  background: rgb(186, 241, 255);
+  top: 0 auto;
+  width: 500%;
+  padding: 3px;
+  max-width: 1000px;
+  margin: 1.6em auto;
+  display: grid;
+  gap: 1.6em;
+  grid-template-columns: 1fr;
+}
+.datospersonales {
+  background: rgb(112, 220, 247);
+  height: 300px;
+}
+.titulo1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300%;
+  text-align: left;
+  color: rgb(255, 5, 5);
+  text-shadow: 3px 5px 5px blue;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  padding: 0.5em;
+}
+.contenedor1 {
+  width: 500%;
+  max-width: 1000px;
+  margin: 1em auto;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 50% 50%;
+}
+.ssobremi {
+  color: rgb(95, 5, 5);
+}
+.sobremi {
+  background: rgb(189, 206, 238);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 90%;
+  font-size: 16px;
+  text-align: justify;
+  padding: 1em;
+}
+.sobremi:hover {
+  background: rgb(97, 160, 243);
+}
+.estudios {
+  width: 83%;
+  background: rgb(153, 243, 153);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  padding: 2em;
+}
+.estudios:hover {
+  background-color: rgb(98, 250, 98);
+}
+li {
+  padding: 0.5em;
+}
+.titulo2 {
+  color: darkred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 0px 0px 20px 0px;
+}
+.experiencia {
+  width: 84%;
+  background: rgb(216, 228, 148);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  padding: 2em;
+}
+.experiencia:hover {
+  background-color: rgb(253, 251, 94);
+}
+.titulo3 {
+  color: darkred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 0px 0px 20px 0px;
+}
+.capacitaciones {
+  width: 416px;
+  background: rgb(193, 164, 248);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  padding: 2em;
+}
+.capacitaciones:hover {
+  background-color: rgb(182, 71, 247);
+}
+.titulo5 {
+  color: darkred;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 0px 0px 20px 0px;
+}
+.titulo6 {
+  color: darkred;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 0.25em;
+}
+.related-post {
+  background: cornsilk;
+  width: 90%;
+  border: 2px solid red;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 1.9em auto;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 33% 33% 33%;
+}
